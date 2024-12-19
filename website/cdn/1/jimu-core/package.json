@@ -1,0 +1,9 @@
+{
+  "name": "jimu-core",
+  "version": "1.15.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jimu-core": "file:"
+  }
+}

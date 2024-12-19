@@ -1,0 +1,22 @@
+{
+  "name": "akoakoa-list",
+  "type": "widget",
+  "version": "0.9.0",
+  "exbVersion": "0.9.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "author": "Nick Vaughn - Arizona State University",
+  "description": "Customized map layers for Akoakoa geoportal",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "canConsumeDataAction": true,
+  "defaultSize": {
+    "width": 300,
+    "height": 400
+  }
+}
