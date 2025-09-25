@@ -55,11 +55,11 @@
           "widgetId": "widget_2",
           "bbox": {
             "left": "0.6%",
-            "bottom": "72.9%",
+            "bottom": "69.8%",
             "width": "46px",
-            "height": "5.7%",
-            "right": "1223px",
-            "top": "170px"
+            "height": "9.9%",
+            "right": "1225px",
+            "top": "167px"
           },
           "setting": {
             "autoProps": {
@@ -296,12 +296,12 @@
           "type": "WIDGET",
           "widgetId": "widget_2",
           "bbox": {
-            "left": "1.8%",
-            "right": "91.5%",
-            "top": "17.5%",
-            "bottom": "77.3%",
-            "width": "6.7%",
-            "height": "5.2%"
+            "left": "1.0%",
+            "right": "90.5%",
+            "top": "17.9%",
+            "bottom": "74.5%",
+            "width": "8.5%",
+            "height": "7.6%"
           },
           "setting": {
             "autoProps": {
@@ -527,12 +527,38 @@
             },
             "vCenter": false,
             "hCenter": false
+          },
+          "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_77",
+          "bbox": {
+            "left": "0.0%",
+            "right": "78.5%",
+            "top": "1.0%",
+            "bottom": "89.1%",
+            "width": "21.5%",
+            "height": "10.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "type": "FIXED",
       "order": [
-        "0"
+        "0",
+        "2"
       ],
       "label": "Map FixedLayout"
     },
@@ -679,6 +705,21 @@
       "setting": {
         "lockDescendants": true
       }
+    },
+    "layout_41": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_76",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.16.0",
@@ -867,14 +908,14 @@
           "space": 0,
           "advanced": true,
           "card": {
-            "showLabel": false,
+            "showLabel": true,
             "labelGrowth": 0,
             "avatar": {
               "type": "primary",
               "size": "default",
-              "shape": "rectangle"
+              "shape": "circle"
             },
-            "showIndicator": false,
+            "showIndicator": true,
             "variant": {
               "default": {
                 "color": "var(--primary-300)",
@@ -924,7 +965,7 @@
           }
         }
       },
-      "label": "Widget Controller"
+      "label": "Legend Controller Tab and Desktop"
     },
     "widget_3": {
       "uri": "widgets/arcgis/legend/",
@@ -1050,7 +1091,7 @@
         "direction": "HORIZONTAL",
         "collapseSide": "SECOND",
         "overlay": true,
-        "size": "270px",
+        "size": "320px",
         "divider": {
           "visible": false,
           "lineStyle": {
@@ -2860,6 +2901,62 @@
         }
       },
       "id": "widget_74"
+    },
+    "widget_76": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.16.0",
+      "label": "Legend",
+      "config": {
+        "style": {
+          "useCustom": true,
+          "fontColor": "var(--primary)"
+        }
+      },
+      "id": "widget_76",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_77": {
+      "uri": "widgets/common/controller/",
+      "version": "1.16.0",
+      "label": "Legend Controller Phone",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {}
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": true,
+            "labelGrowth": 10,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "circle"
+            },
+            "showIndicator": true,
+            "variant": {
+              "default": {
+                "color": "var(--primary)"
+              },
+              "active": {},
+              "hover": {}
+            }
+          }
+        }
+      },
+      "id": "widget_77",
+      "layouts": {
+        "controller": {
+          "SMALL": "layout_41"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -4247,15 +4344,16 @@
     }
   ],
   "controllerPanels": {},
-  "timestamp": 1758820705459,
+  "timestamp": 1758822844597,
   "attributes": {
     "portalUrl": "https://asu.maps.arcgis.com",
     "isWebTier": false,
     "clientId": "",
-    "title": "Ākoʻakoʻa Geoportal v3.1",
+    "title": "ʻĀkoʻakoʻa Geoportal v3.2",
     "description": "Fixed layer indents",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1734542102111.png"
+    "thumbnail": "thumbnail/thumbnail1734542102111.png",
+    "express": false
   },
   "sharedThemeVariables": {
     "header": {
@@ -4296,7 +4394,7 @@
       "index": 0
     }
   },
-  "publishTimestamp": 1734746588534,
+  "publishTimestamp": 1758822882169,
   "header": {
     "layout": {
       "LARGE": "layout_31"
