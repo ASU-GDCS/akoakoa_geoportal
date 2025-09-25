@@ -54,41 +54,19 @@
           "type": "WIDGET",
           "widgetId": "widget_2",
           "bbox": {
-            "left": "0.00%",
-            "bottom": "15.00%",
-            "width": "110.00px",
-            "height": "10.0%",
-            "right": "912px",
-            "top": "561px"
+            "left": "0.6%",
+            "bottom": "72.9%",
+            "width": "46px",
+            "height": "5.7%",
+            "right": "1223px",
+            "top": "170px"
           },
           "setting": {
             "autoProps": {
               "left": false,
               "right": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_26",
-          "bbox": {
-            "left": "0.0%",
-            "right": "90.0%",
-            "top": "87.1%",
-            "bottom": "5.00%",
-            "width": "110.00px",
-            "height": "10.00%"
-          },
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": true,
-              "top": true,
-              "bottom": false
+              "top": false,
+              "bottom": true
             },
             "vCenter": false,
             "hCenter": false
@@ -120,32 +98,56 @@
           "type": "WIDGET",
           "widgetId": "widget_35",
           "bbox": {
-            "left": "5.6%",
-            "right": "63.1%",
-            "top": "1.7%",
-            "bottom": "94.1%",
-            "width": "310.00px",
-            "height": "4.1%"
+            "left": "20.00%",
+            "right": "61.7%",
+            "top": "1.75%",
+            "bottom": "94.4%",
+            "width": "20.0%",
+            "height": "4.0%"
           },
           "setting": {
             "autoProps": {
-              "height": "AUTO",
+              "height": "CUSTOM",
               "left": false,
               "right": true,
               "top": false,
               "bottom": true
             },
             "vCenter": false,
-            "hCenter": false
+            "hCenter": false,
+            "lockLayout": false
+          }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_40",
+          "bbox": {
+            "left": "5.0%",
+            "right": "83.3%",
+            "top": "2.00%",
+            "bottom": "94.4%",
+            "width": "14.00%",
+            "height": "3.50%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "lockLayout": false
           }
         }
       },
       "type": "FIXED",
       "order": [
         "3",
-        "5",
         "6",
-        "7"
+        "7",
+        "9"
       ],
       "label": "Map FixedLayout"
     },
@@ -160,7 +162,8 @@
         "5": {
           "type": "WIDGET",
           "widgetId": "widget_3",
-          "bbox": {}
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -233,20 +236,6 @@
         "0"
       ]
     },
-    "layout_16": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_24",
-          "bbox": {}
-        }
-      },
-      "type": "FIXED",
-      "label": "Controller layout",
-      "order": [
-        "0"
-      ]
-    },
     "layout_17": {
       "type": "FIXED",
       "content": {
@@ -302,9 +291,32 @@
       ]
     },
     "layout_18": {
-      "content": {},
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "1.8%",
+            "right": "91.5%",
+            "top": "17.5%",
+            "bottom": "77.3%",
+            "width": "6.7%",
+            "height": "5.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
       "type": "FIXED",
-      "order": [],
+      "order": [
+        "0"
+      ],
       "label": "Map FixedLayout"
     },
     "layout_19": {
@@ -369,63 +381,16 @@
     },
     "layout_21": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_2",
-          "bbox": {
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "120px",
-            "height": "100.0%",
-            "left": "80.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": false,
-              "width": "CUSTOM",
-              "height": "STRETCH"
-            },
-            "hCenter": false,
-            "vCenter": false
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_26",
-          "bbox": {
-            "left": "59.9%",
-            "right": "20.00%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "120px",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false,
-              "height": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "4": {
           "type": "WIDGET",
           "widgetId": "widget_33",
           "bbox": {
             "left": "5.00%",
-            "right": "50.00%",
-            "top": "26.50%",
-            "bottom": "26.0%",
-            "width": "66.7%",
-            "height": "47.4%"
+            "right": "38.50%",
+            "top": "28.2%",
+            "bottom": "27.2%",
+            "width": "50.00%",
+            "height": "44.6%"
           },
           "setting": {
             "autoProps": {
@@ -434,46 +399,56 @@
               "right": true,
               "top": true,
               "bottom": false,
-              "width": "STRETCH"
-            }
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_73",
+          "bbox": {
+            "left": "66.1%",
+            "right": "5.00%",
+            "top": "19.2%",
+            "bottom": "19.1%",
+            "width": "31.40%",
+            "height": "61.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
       "type": "FIXED",
       "order": [
-        "0",
-        "3",
-        "4"
+        "4",
+        "5"
       ],
       "label": "Default"
     },
     "layout_22": {
       "content": {
-        "5": {
-          "type": "WIDGET",
-          "widgetId": "widget_3",
-          "bbox": {}
-        }
-      },
-      "type": "FIXED",
-      "order": [
-        "5"
-      ],
-      "label": "Controller layout"
-    },
-    "layout_23": {
-      "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_24",
-          "bbox": {}
+          "widgetId": "widget_3",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
-      "label": "Controller layout",
       "order": [
         "0"
-      ]
+      ],
+      "label": "Controller layout"
     },
     "layout_24": {
       "type": "FIXED",
@@ -531,9 +506,34 @@
       ]
     },
     "layout_25": {
-      "content": {},
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "2.5%",
+            "right": "87.7%",
+            "top": "2.0%",
+            "bottom": "92.9%",
+            "width": "9.8%",
+            "height": "5.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
       "type": "FIXED",
-      "order": [],
+      "order": [
+        "0"
+      ],
       "label": "Map FixedLayout"
     },
     "layout_26": {
@@ -555,7 +555,9 @@
               "left": true,
               "top": true,
               "bottom": false
-            }
+            },
+            "vCenter": false,
+            "hCenter": false
           }
         }
       },
@@ -598,80 +600,54 @@
     },
     "layout_28": {
       "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_2",
-          "bbox": {
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "23.7%",
-            "height": "100.0%",
-            "left": "76.3%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": false,
-              "width": "CUSTOM",
-              "height": "STRETCH"
-            },
-            "hCenter": false,
-            "vCenter": false
-          }
-        },
-        "3": {
-          "type": "WIDGET",
-          "widgetId": "widget_26",
-          "bbox": {
-            "left": "50.0%",
-            "right": "23.2%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "26.8%",
-            "height": "100.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false,
-              "height": "STRETCH"
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        },
         "4": {
           "type": "WIDGET",
           "widgetId": "widget_34",
           "bbox": {
             "left": "5.00%",
             "right": "3.5%",
-            "top": "24.2%",
+            "top": "25.00%",
             "bottom": "24.5%",
             "width": "42.00%",
-            "height": "51.3%"
+            "height": "50.00%"
           },
           "setting": {
             "autoProps": {
-              "height": "AUTO",
+              "height": "CUSTOM",
               "left": false,
               "right": true,
               "top": false,
               "bottom": true
             }
           }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_74",
+          "bbox": {
+            "left": "52.4%",
+            "right": "5.6%",
+            "top": "25.00%",
+            "bottom": "25.1%",
+            "width": "42.0%",
+            "height": "50.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
         }
       },
       "type": "FIXED",
       "order": [
-        "0",
-        "3",
-        "4"
+        "4",
+        "5"
       ],
       "label": "Default"
     },
@@ -680,7 +656,8 @@
         "5": {
           "type": "WIDGET",
           "widgetId": "widget_3",
-          "bbox": {}
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -688,20 +665,6 @@
         "5"
       ],
       "label": "Controller layout"
-    },
-    "layout_30": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_24",
-          "bbox": {}
-        }
-      },
-      "type": "FIXED",
-      "label": "Controller layout",
-      "order": [
-        "0"
-      ]
     },
     "layout_31": {
       "content": {},
@@ -729,8 +692,8 @@
         "height": 800
       },
       "SMALL": {
-        "width": 414,
-        "height": 736
+        "width": 360,
+        "height": 740
       },
       "MEDIUM": {
         "width": 600,
@@ -764,14 +727,14 @@
         "initialMapState": {
           "viewPoint": {
             "rotation": 0,
-            "scale": 577790.554289,
+            "scale": 288895.277144,
             "targetGeometry": {
               "spatialReference": {
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -17326927.06138675,
-              "y": 2216817.085453819
+              "x": -17364349.33510186,
+              "y": 2233980.7766241534
             }
           },
           "extent": {
@@ -779,10 +742,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -17406345.133775078,
-            "ymin": 2167209.4540967206,
-            "xmax": -17247508.98899842,
-            "ymax": 2266424.7168109175
+            "xmin": -17413192.596176025,
+            "ymin": 2203482.4023384093,
+            "xmax": -17315506.0740277,
+            "ymax": 2264479.1509098974
           },
           "rotation": 0,
           "viewType": "2d"
@@ -790,7 +753,9 @@
         "showPopupUponSelection": false,
         "initialMapDataSourceID": "dataSource_1",
         "clientQueryDataSourceIds": [],
-        "disableScroll": false
+        "disableScroll": false,
+        "disablePopUp": false,
+        "popupDockPosition": ""
       },
       "id": "widget_1",
       "layouts": {
@@ -902,12 +867,12 @@
           "space": 0,
           "advanced": true,
           "card": {
-            "showLabel": true,
+            "showLabel": false,
             "labelGrowth": 0,
             "avatar": {
               "type": "primary",
-              "size": "sm",
-              "shape": "circle"
+              "size": "default",
+              "shape": "rectangle"
             },
             "showIndicator": false,
             "variant": {
@@ -963,7 +928,7 @@
     },
     "widget_3": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.15.0",
+      "version": "1.16.0",
       "config": {
         "cardStyle": false,
         "style": {
@@ -1074,305 +1039,6 @@
         },
         "SECOND": {
           "LARGE": "layout_15"
-        }
-      }
-    },
-    "widget_24": {
-      "uri": "widgets/survey123/",
-      "version": "1.16.0",
-      "label": "Report bleaching",
-      "config": {
-        "surveyItemId": "89e40aa2419d4b7f96f0e8718cec5d09",
-        "portalUrl": "",
-        "embeds": [
-          "fullScreen",
-          "onSubmitted"
-        ],
-        "hides": [
-          "header",
-          "footer",
-          "navbar"
-        ],
-        "mode": "new",
-        "selectedSurvey": {
-          "id": "89e40aa2419d4b7f96f0e8718cec5d09",
-          "owner": "nvaughn4_asu",
-          "title": "Report_Bleaching",
-          "created": 1758152813000,
-          "tags": [
-            "Survey123",
-            "transportation",
-            "roads and highways"
-          ],
-          "thumbnail": "https://asu.maps.arcgis.com/sharing/rest/content/items/89e40aa2419d4b7f96f0e8718cec5d09/info/thumbnail/AkoakoaLogoWhiteBackground.png?token=3NKHt6i2urmWtqOuugvr9V9f-Glh48lv8Nl2f7nBcbN_zvBd7bkuT9clSM0J4ooX8rNQP6fjS0tR8B0SU7ZI-PY-COavDpN7Q8K7ewuR8659zFRYP2QIq_cFUsJP3Zv7sSHR2tsaIjKXgVyMh-yD12JXwIpV3zI31xEQeExCV9_s9okYVwm0Czt0kfJcc6tOVZmZHi-i5ry3Lx88fW72xLRsmqHz6sMa6LQfZBx3A0GlrIvnhBdauSeCxVYLFNcT",
-          "snippet": "Report road potholes that require maintenance. Documenting the location of a pothole can assist with expediting the repair process. ",
-          "formItemInfo": {
-            "typeKeywords": [
-              "Form",
-              "Survey123",
-              "Survey123 Hub",
-              "xForm"
-            ],
-            "id": "89e40aa2419d4b7f96f0e8718cec5d09",
-            "owner": "nvaughn4_asu",
-            "orgId": "0OPQIK59PJJqLK0A",
-            "created": 1758152813000,
-            "isOrgItem": true,
-            "modified": 1758246323000,
-            "guid": null,
-            "name": "89e40aa2419d4b7f96f0e8718cec5d09.zip",
-            "title": "Report_Bleaching",
-            "type": "Form",
-            "description": null,
-            "tags": [
-              "Survey123",
-              "transportation",
-              "roads and highways"
-            ],
-            "snippet": "Report road potholes that require maintenance. Documenting the location of a pothole can assist with expediting the repair process. ",
-            "thumbnail": "thumbnail/AkoakoaLogoWhiteBackground.png",
-            "documentation": null,
-            "extent": [],
-            "categories": [],
-            "spatialReference": null,
-            "accessInformation": null,
-            "classification": null,
-            "licenseInfo": null,
-            "culture": "en-us",
-            "properties": {
-              "versionInfo": {
-                "created": {
-                  "build": "3.24.57",
-                  "timestamp": 1758152823699,
-                  "env": "prod"
-                },
-                "saved": {
-                  "build": "3.24.57",
-                  "timestamp": 1758246322471,
-                  "env": "prod"
-                },
-                "published": {
-                  "build": "3.24.57",
-                  "timestamp": 1758246320926,
-                  "env": "prod"
-                }
-              },
-              "websiteVersion": "3.24",
-              "isVersionLocked": true
-            },
-            "advancedSettings": null,
-            "url": null,
-            "proxyFilter": null,
-            "access": "private",
-            "size": -1,
-            "subInfo": 0,
-            "appCategories": [],
-            "industries": [],
-            "languages": [],
-            "largeThumbnail": null,
-            "banner": null,
-            "screenshots": [],
-            "listed": false,
-            "ownerFolder": "cdc80d57313d405f8051769c65c19cbf",
-            "protected": false,
-            "numComments": 0,
-            "numRatings": 0,
-            "avgRating": 0,
-            "numViews": 5,
-            "scoreCompleteness": 66,
-            "groupDesignations": null,
-            "apiToken1ExpirationDate": -1,
-            "apiToken2ExpirationDate": -1,
-            "contentOrigin": "self",
-            "lastViewed": 1758243600000
-          },
-          "form": {
-            "layerName": "surveyPoint",
-            "portalUrl": "https://asu.maps.arcgis.com",
-            "questions": [],
-            "version": "3.20",
-            "themes": [
-              {
-                "id": null,
-                "name": "theme-color1",
-                "isEnabled": true,
-                "header": {
-                  "backgroundColor": "#31872E",
-                  "textColor": "#ffffff"
-                },
-                "form": {
-                  "backgroundColor": "#ffffff",
-                  "backgroundOpacity": 1,
-                  "textColor": "#505050",
-                  "primaryColor": "#31872E",
-                  "primaryTextColor": "#ffffff",
-                  "inputTextColor": "#505050",
-                  "inputBackgroundColor": "#ffffff"
-                },
-                "webpage": {
-                  "backgroundColor": "#B7DCC7"
-                }
-              }
-            ],
-            "locales": [
-              {
-                "code": "en-us",
-                "label": "English-US",
-                "isDefault": true
-              }
-            ],
-            "settings": {
-              "openStatusInfo": {
-                "status": "open",
-                "schedule": {
-                  "start": null,
-                  "end": null
-                },
-                "closedStatusContent": ""
-              },
-              "thankYouScreenContent": "",
-              "recordStartEndTime": {
-                "isEnabled": false,
-                "fieldInfos": []
-              },
-              "notificationsInfo": {},
-              "isVersionLocked": true,
-              "multiSubmissionInfo": {
-                "autoReload": -1,
-                "maxAllowed": 0,
-                "showSubmitAnotherTip": false,
-                "redirectUrl": ""
-              },
-              "draftInfo": {
-                "isEnabled": false
-              },
-              "captcha": {
-                "isEnabled": false,
-                "content": ""
-              }
-            },
-            "submit": {},
-            "header": {
-              "isVisible": true,
-              "content": ""
-            },
-            "subHeader": {
-              "isVisible": false
-            },
-            "footer": {
-              "isVisible": true,
-              "content": ""
-            }
-          },
-          "report": {
-            "templateItems": []
-          },
-          "featureService": {
-            "source": {
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isView": false,
-              "isRelatedToFormItem": false
-            },
-            "fieldworker": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            },
-            "stakeholder": {
-              "isView": true,
-              "isNonHostedFeatureService": false,
-              "itemId": "",
-              "url": "",
-              "isRelatedToFormItem": false
-            }
-          },
-          "value": "89e40aa2419d4b7f96f0e8718cec5d09",
-          "label": "Report_Bleaching"
-        },
-        "timestamp": 1758244327071,
-        "selectedSurveyQuestionFields": [],
-        "fieldQuestionMapping": [],
-        "activeLinkData": false,
-        "dsType": null
-      },
-      "id": "widget_24"
-    },
-    "widget_26": {
-      "uri": "widgets/common/controller/",
-      "version": "1.16.0",
-      "label": "Widget Controller 3",
-      "config": {
-        "behavior": {
-          "onlyOpenOne": true,
-          "openStarts": [],
-          "displayType": "STACK",
-          "vertical": false,
-          "size": {
-            "widget_24": {
-              "width": 552,
-              "height": 749
-            }
-          },
-          "arrangement": "fixed"
-        },
-        "appearance": {
-          "space": 0,
-          "advanced": true,
-          "card": {
-            "showLabel": true,
-            "labelGrowth": 50,
-            "avatar": {
-              "type": "primary",
-              "size": "sm",
-              "shape": "circle"
-            },
-            "variant": {
-              "default": {
-                "color": "var(--primary)",
-                "bg": "#d7973d",
-                "border": {
-                  "color": "#1d84a0",
-                  "width": "1px"
-                },
-                "bold": false
-              },
-              "hover": {
-                "bg": "#eb7805",
-                "bold": true,
-                "color": "#1d2d39"
-              },
-              "active": {
-                "bg": "#eb7805",
-                "color": "var(--primary-300)",
-                "bold": true
-              },
-              "disabled": {
-                "color": "var(--dark-200)",
-                "bg": "var(--light-400)",
-                "border": {
-                  "color": "var(--light-400)"
-                }
-              }
-            }
-          }
-        }
-      },
-      "id": "widget_26",
-      "layouts": {
-        "controller": {
-          "LARGE": "layout_16",
-          "MEDIUM": "layout_23",
-          "SMALL": "layout_30"
-        }
-      },
-      "style": {
-        "background": {
-          "color": "",
-          "fillType": "fill"
         }
       }
     },
@@ -3055,6 +2721,145 @@
       "useMapWidgetIds": [
         "widget_1"
       ]
+    },
+    "widget_40": {
+      "uri": "widgets/common/button/",
+      "version": "1.16.0",
+      "label": "Report Bleaching Desktop",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/19088f1",
+            "expression": null
+          },
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A46 46 0 0 1 8 14.492a48 48 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pin",
+                "color": "var(--dark-800)",
+                "originalName": "outlined/application/pin.svg",
+                "path": [
+                  "general",
+                  "mapPin"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "RIGHT"
+          },
+          "text": "Report Bleaching",
+          "toolTip": "Click here to report coral bleaching",
+          "textExpression": null,
+          "toolTipExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_40",
+      "useDataSources": [],
+      "useDataSourcesEnabled": false
+    },
+    "widget_73": {
+      "uri": "widgets/common/button/",
+      "version": "1.16.0",
+      "label": "Report Bleaching Tablet",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/19088f1",
+            "expression": null
+          },
+          "text": "Report Bleaching",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A46 46 0 0 1 8 14.492a48 48 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pin",
+                "color": "var(--dark-800)",
+                "originalName": "outlined/application/pin.svg",
+                "path": [
+                  "general",
+                  "mapPin"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "RIGHT"
+          },
+          "toolTip": "Tap here to report coral bleaching",
+          "toolTipExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_73",
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_74": {
+      "uri": "widgets/common/button/",
+      "version": "1.16.0",
+      "label": "Button 3",
+      "config": {
+        "functionConfig": {
+          "text": "Report Bleaching",
+          "textExpression": null,
+          "icon": {
+            "data": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A46 46 0 0 1 8 14.492a48 48 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133m1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.751C5.768 13.444 2 8.817 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133M10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0m1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "filename": "Pin",
+                "color": "var(--dark-800)",
+                "originalName": "outlined/application/pin.svg",
+                "path": [
+                  "general",
+                  "mapPin"
+                ],
+                "isUploaded": false,
+                "inlineSvg": true
+              }
+            },
+            "position": "RIGHT"
+          },
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "https://arcg.is/19088f1",
+            "expression": null
+          },
+          "toolTip": "Tap here to report coral bleaching",
+          "toolTipExpression": null
+        },
+        "styleConfig": {
+          "themeStyle": {
+            "quickStyleType": "primary"
+          },
+          "useCustom": false
+        }
+      },
+      "id": "widget_74"
     }
   },
   "widgetsManifest": {},
@@ -4441,24 +4246,17 @@
       "page_0": []
     }
   ],
-  "controllerPanels": {
-    "widget_26": {
-      "position": "TOP_CENTER",
-      "width": "500px",
-      "height": "700px",
-      "offsetX": 0,
-      "offsetY": 15
-    }
-  },
-  "timestamp": 1758246895274,
+  "controllerPanels": {},
+  "timestamp": 1758820705459,
   "attributes": {
     "portalUrl": "https://asu.maps.arcgis.com",
     "isWebTier": false,
     "clientId": "",
-    "title": "Ākoʻakoʻa Geoportal v3.1",
+    "title": "ʻĀkoʻakoʻa Geoportal v3.2",
     "description": "Fixed layer indents",
     "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1734542102111.png"
+    "thumbnail": "thumbnail/thumbnail1734542102111.png",
+    "express": false
   },
   "sharedThemeVariables": {
     "header": {
@@ -4499,7 +4297,7 @@
       "index": 0
     }
   },
-  "publishTimestamp": 1734746588534,
+  "publishTimestamp": 1758821405108,
   "header": {
     "layout": {
       "LARGE": "layout_31"
